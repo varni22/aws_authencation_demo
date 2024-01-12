@@ -79,6 +79,7 @@ class MqttHandler with ChangeNotifier {
     print('MQTT_LOGS:: Connected');
   }
 
+
   void onDisconnected() {
     print('MQTT_LOGS:: Disconnected');
   }
